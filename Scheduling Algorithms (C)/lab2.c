@@ -3,6 +3,13 @@
 
 #define MAX_COUNT 100
 
+// TO DO:
+// 1. Finish Round Robin Scheduling
+// 2. Fix SJF Scheduling
+// 3. Add Idle Times in SJF
+// 4. Do Priority Based Scheduling
+// 5. Add Idle Times in Priority Based
+
 //---------------------------------------------------------------------------------------------------------------------------------------------- FUNCTION DECLARATIONS
 typedef struct {
     int processNum, arrivalTime, burstTime, remainingTime, idleTime, processDone;
